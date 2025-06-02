@@ -1,0 +1,311 @@
+ :root {
+    --Pink: #ff4d94;
+    --white: #F8F8FF;
+    --bg: #110009;
+    --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
+}
+
+    
+    /* Base body styles */
+    body {
+      font-size: 1rem;
+    font-family: 'Work Sans', sans-serif; 
+    min-height: 2000px;
+      margin: 0;
+      color: #212529;
+      scroll-behavior: smooth;
+    }
+    
+.hero::before {
+    content: '';
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/tangan.jpg);
+    background-size: cover; 
+    background-position: center; 
+    z-index: -1;
+    filter: opacity(50%);
+}
+
+.hero {
+    position: relative;
+    min-height: 100vh; 
+}
+
+.hero h4, .hero p {
+    color: #151d2b;
+    text-shadow: Var(--white);
+}
+
+.hero h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 6rem; 
+    font-weight: 580; 
+    color: var(--Pink);
+    text-shadow: var(--shadow); 
+    }    
+
+.hero h4 {
+    font-size: 1.6rem;
+}
+
+.hero p {
+    font-size: 1.4rem;
+}
+
+.hero a{
+    color: var(--Pink);
+    background-color: var(--white);
+   }
+
+.hero a:hover{
+    background-color: var(--white);
+    color: var(--Pink);
+}
+    
+    .simply-countdown{
+overflow:hidden;display:flex;flex-wrap:wrap;justify-content:center;gap:1.25rem;font-family:Inter,system-ui,-apple-system,sans-serif}.simply-countdown>.simply-section{
+width:65px;height:65px;padding:1.5rem;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.9);border:1px solid rgba(226,232,240,.8);border-radius:1rem;box-shadow:0 4px 6px -1px rgba(0,0,0,.05),0 2px 4px -1px rgba(0,0,0,.03),0 0 0 1px rgba(0,0,0,.02);transition:.3s cubic-bezier(.4, 0, .2, 1);backdrop-filter:blur(10px)}
+.simply-countdown>.simply-section>div{
+display:flex;flex-direction:column;line-height:1;align-items:center}
+.simply-countdown>.simply-section .simply-amount{
+font-size:1.5rem;font-weight:700;color:#1e293b;line-height:1.2;letter-spacing:-.025em}
+.simply-countdown>.simply-section .simply-word{
+font-size:.6rem;font-weight:500;color:#64748b;text-transform:uppercase;letter-spacing:.1em}@media (min-width:640px){.simply-countdown>.simply-section{width:75px;height:75px;padding:1.75rem}
+.simply-countdown>.simply-section .simply-amount{font-size:1.75rem}.simply-countdown>.simply-section .simply-word{font-size:.75rem}}@media (min-width:1024px){.simply-countdown>.simply-section{width:90px;height:90px;padding:2rem}.simply-countdown>.simply-section .simply-amount{font-size:2rem}.simply-countdown>.simply-section .simply-word{font-size:.8rem}}
+
+.mynavbar {
+    backdrop-filter: blur(3px);
+    }
+
+.mynavbar .offcanvas {
+    height: 100vh;
+}
+
+.mynavbar, .navbar-brand,
+.mynavbar, .offcanvas-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.mynavbar nav-link {
+    text-transform: uppercase;
+}
+    
+ .Home {
+     background-image: url(img/yaudahiya.png);
+     background-size: cover;
+     min-height: 100vh;
+     margin-top: -6rem;
+     padding-top: 10rem;
+     padding-bottom: 5rem;
+ }
+ 
+ .Home h2, .info h2, .gallery h2, .gifts h2 {
+     color: var(--Pink);
+     font-family: 'Great Vibes', cursive;
+     font-size: 5rem;
+     font-weight: bold;
+ }
+ 
+ .Home h3 {
+     color: #444;
+     font-size: 1.5rem;
+     margin-bottom: 1rem;
+ }
+ 
+ .Home p, .gifts p {
+     font-size: 1.1rem;
+     color: #666;
+ }
+ 
+ .Home .couple {
+     margin-top: 100px;
+ }
+ 
+ .Home .couple h3 {
+     font-family: 'Great Vibes', cursive;
+     font-size: 2.4rem;
+     color: var(--Pink);
+ }
+ 
+ .Home .couple img {
+     width: 100%;
+ }
+ 
+ .info {
+     background-image: url('img/yaudahiya.png');
+     color: white; 
+     padding-bottom: 8rem;
+     margin-top: -6rem;
+     padding-top: 10rem;
+ }
+ 
+ .info .alamat {
+    font-size: 1.1rem;
+    color: var(--bg);
+}
+
+.info a {
+    color: var(--Pink);
+    background-color: var(--white);
+}
+
+.info a:hover {
+    background-color: (--Pink);
+    color: var(--white);
+}
+ 
+ .info .deskripsi {
+    color: var(--bg);
+    font-size: 1rem; 
+    font-weight: 300;
+ }
+ 
+ .info .card {
+     background-color: rgba(255, 255, 255, 0.2) !important;
+     color: black !important; 
+     border: 1px solid #999;
+ }
+ 
+ .info .card-header {
+     border: 1px solid #999;
+     text-transform: uppercase;
+     letter-spacing: 0.1rem;
+ }
+ 
+ .info .card-body {
+     font-size: 1rem;
+ }
+ 
+ .info  .card-footer {
+     border-top: 1px solid #999;
+     font-size: 0.9rem;
+     font-weight: 300;
+ }
+ 
+    
+ 
+ .gallery, .gifts {
+     padding-top: 10rem;
+     padding-bottom: 8rem;
+ }
+ 
+ .gallery span {
+     text-transform: uppercase;
+     color: #666;
+     font-size: 0.9rem;
+     letter-spacing: 1px;
+     display: block;
+     margin-bottom: 1rem;
+ }
+ 
+ .gallery p {
+    font-size: 1rem; 
+    font-weight: 300;
+ }
+ 
+ .gallery {
+    background-color: #ffeaea;
+     }
+ 
+ .gifts {
+     background-color: #whitesmoke;
+ }
+ 
+ .gifts span {
+     font-size: 3.5rem;
+ }
+ 
+ .gifts p {
+     font-size: 1.5rem;
+ }
+ 
+ .gifts ul li {
+     font-size: 2rem;
+ }
+ 
+ footer {
+    padding: 3rem; 
+    background-color: Var(--Pink);
+    color: white; 
+    
+    }
+    
+.audio-icon-wrapper {
+    width: 4rem;
+    height: 4rem;
+    font-size: 4rem;
+    position: fixed;
+    bottom: 2.5rem;
+    right: 2rem;
+    cursor: pointer;
+    color: white;
+    opacity: 0.5;
+    mix-blend-mode: difference;
+    animation: rotating 5s linear infinite;
+    transform-origin: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;  
+}
+
+
+@keyframes rotating {
+   from {
+       transform: rotate(0);
+   }
+   to {
+       transform: rotate(360deg);
+   }
+}
+
+    /* Responsive tweaks */
+    @media (min-width: 768px) {
+      header {
+        padding: 1rem 3rem;
+      }
+      section {
+        padding: 6rem 2rem 7rem;
+      }
+    }
+    
+    
+    
+    
+    /*media quary*/
+
+/*Laptop*/
+ @media (max-width: 992px) {
+     html {
+         font-size: 85%;
+     }
+ }
+
+/*Tablet*/
+@media (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+    
+    
+    .mynavbar .nav-link {
+    font-size: 2rem; 
+    text-align: center;
+}
+    .sticky-top {
+        overflow: hidden;
+    }
+}
+
+/*Mobile Phone*/
+@media (max-width: 576pxx) {
+    html {
+        font-size: 40%;
+    }
+}
